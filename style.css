@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --Very-Dark-Grayish-Blue: #48556a;
+  --Desaturated-Dark-Blue: #6d7f97;
+  --Grayish-Blue: #9eafc2;
+  --Light-Grayish-Blue: #ecf2f8;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
