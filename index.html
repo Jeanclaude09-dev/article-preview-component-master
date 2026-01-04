@@ -16,20 +16,18 @@
     <title>Frontend Mentor | Article preview component</title>
   </head>
   <body class="bg-[#ecf2f8]">
-    <main
-      class="max-w-screeen min-h-screen flex justify-center items-center max-sm:p-8"
-    >
+    <main class="min-h-screen flex justify-center items-center max-sm:p-8">
       <section
-        class="flex w-[750px] bg-white rounded-2xl max-sm:flex-col shadow-xl"
+        class="flex max-w-[750px] bg-white rounded-2xl max-sm:flex-col shadow-xl"
       >
-        <div>
+        <div class="flex-[0.4]">
           <img
             src="images/drawers.jpg"
             alt="drawers"
-            class="w-full h-full rounded-l-2xl max-sm:rounded-t-2xl"
+            class="h-full rounded-l-2xl max-sm:rounded-t-2xl object-cover object-left"
           />
         </div>
-        <div class="flex flex-col gap-5 p-7">
+        <div class="flex flex-col gap-5 p-7 flex-[0.6]">
           <h1 class="text-2xl font-semibold text-[#48556a]">
             Shift the overall look and feel by adding these wonderful touches to
             furniture in your home
@@ -43,7 +41,7 @@
             <div class="flex gap-4">
               <img
                 src="images/avatar-michelle.jpg"
-                aria-hidden="true"
+                alt="profile-avatar"
                 class="w-12 h-12 rounded-full cursor-pointer"
               />
               <div class="flex flex-col">
@@ -57,22 +55,28 @@
             >
               <img
                 src="images/icon-share.svg"
-                aria-hidden="true"
+                alt="share-icon"
                 class="w-4 h-4"
               />
               <div
                 id="tooltip"
-                class="absolute w-max -top-16 flex items-center justify-center gap-3 translate-y-1 scale-95 transition-all duration-300 ease-in-out p-4 bg-[#48556a] rounded-lg pointer-events-none z-0 groupe-hover:block"
+                class="absolute w-max -top-16 flex items-center justify-center gap-3 translate-y-1 scale-95 transition-all duration-300 ease-in-out p-4 bg-[#48556a] rounded-lg z-0 groupe-hover:block"
               >
                 <p
                   class="text-[#6d7f97] font-bold uppercase text-xs tracking-widest"
                 >
                   Share
                 </p>
-                <img src="images/icon-facebook.svg" aria-hidden="true" /><img
+                <img
+                  src="images/icon-facebook.svg"
+                  alt="facebook icon share"
+                /><img
                   src="images/icon-twitter.svg"
-                  aria-hidden="true"
-                /><img src="images/icon-pinterest.svg" aria-hidden="true" />
+                  alt="Twitter share icon"
+                /><img
+                  src="images/icon-pinterest.svg"
+                  alt="Pinterest share icon"
+                />
                 <div class="relative">
                   <div
                     class="absolute bg-[#48556a] -left-20 -bottom-8 -z-10 p-2 rotate-45"
